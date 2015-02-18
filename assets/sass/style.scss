@@ -1,0 +1,59 @@
+/* Import Partials!
+-------------------------------------------------------------------------------*/
+
+// import compass utilities
+@import "compass/css3";
+@import "compass/utilities/color/contrast";
+
+// browser reset
+@import "_normalize";
+
+//
+//
+// Change these variables if you like
+
+// set the bg color of page; tagline and button are based on bg color
+$primary-color: #FFFFFF; // white
+
+// be sure to load whatever font files you want to use, in this case we are loading Lato from Google Web Fonts
+$sans-font: Lato, Tahoma, sans-serif; 
+
+// font color for page  and anchor links
+$anchor-color: #ffffff; // purple
+
+// email signup button
+$button-color: $anchor-color;
+
+//
+//
+//
+
+@import "_global";
+@import "_callout";
+
+
+.logo {
+width: 11em;
+
+}
+
+h1 {
+color: #ffffff;
+}
+
+html {
+background: url(../img/background-abra.jpg) center center no-repeat fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+.tagline {
+padding-top: 30px;
+}
+
+body {
+font-weight: 300;
+background-color: transparent;
+}
