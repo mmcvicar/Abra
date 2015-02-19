@@ -536,3 +536,10 @@ body {
 
 .title {
   font-size: 2.25em; }
+
+@media screen and (min-width: 480px) {
+  .middle {
+    -ms-transform: translateX(-50%) translateY(-50%);
+    /* IE 9 */
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    /* Chrome, Safari, Opera */ } }
